@@ -7,7 +7,7 @@ using SimpleAPI.Models;
 namespace SimpleAPI.Controllers
 {
     [ApiController]
-    [Route("api/workers")]
+    [Route("[controller]")]
     public class WorkerController
     {
         private readonly ILogger<WorkerController> _logger;

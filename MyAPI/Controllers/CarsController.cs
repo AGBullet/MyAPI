@@ -8,7 +8,7 @@ using SimpleAPI.Models;
 namespace SimpleAPI.Controllers
 {
     [ApiController]
-    [Route("api/cars")]
+    [Route("[controller]")]
     public class CarsController : ControllerBase
     {
         private readonly ILogger<CarsController> _logger;
